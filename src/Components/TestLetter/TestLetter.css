@@ -1,0 +1,16 @@
+.test-letter {
+  font-size: 20px;
+  line-height: 29px;
+  word-spacing: 5px;
+}
+.test-letter-correct {
+  color: rgb(21, 223, 21);
+}
+
+.test-letter-incorrect {
+  color: rgb(255, 0, 0);
+}
+
+.test-letter-notattempted {
+  color: rgb(0, 0, 0);
+}

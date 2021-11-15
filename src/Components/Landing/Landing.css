@@ -1,0 +1,149 @@
+.landing-container {
+  display: flex;
+  min-height: 70vh;
+  justify-content: space-between;
+  align-items: center;
+  color: #ebfffb;
+  padding: 0 32px;
+  font-family: 'sans-serif', Alasin;
+  flex-wrap: wrap;
+}
+
+.landing-header {
+  font-size: 72px;
+  letter-spacing: 4px;
+  color: blue;
+  margin: 40px;
+  margin-bottom: 240px;
+}
+
+.typewritter-container {
+  position: absolute;
+  font-weight: bold;
+  top: 20rem;
+  left: 15rem;
+  font-size: 2.7rem;
+  letter-spacing: 4px;
+}
+
+.flash-image {
+  width: 40vw;
+  border-radius: 28px;
+}
+
+@media (min-width: 710px) and (max-width: 1185px) {
+  .landing-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .landing-header {
+    text-align: center;
+    font-size: 64px;
+  }
+
+  .typewritter-container {
+    flex-direction: column;
+    text-align: center;
+    font-size: 34px;
+    top: 15rem;
+  }
+  .landing-container {
+    min-height: 60vh;
+    padding: 0 32px;
+  }
+  .landing-left {
+    padding-bottom: 10px;
+  }
+  .flash-image {
+    width: 50vw;
+  }
+}
+@media (min-width: 430px) and (max-width: 518px) {
+  .landing-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .landing-header {
+    text-align: center;
+    font-size: 44px;
+  }
+  .typewritter-container {
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    top: 12rem;
+  }
+}
+@media (min-width: 518px) and (max-width: 710px) {
+  .flash-image {
+    width: 80vw;
+    height: 30vh;
+  }
+  .typewritter-container {
+    position: absolute;
+    left: 5rem;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    top: 20rem;
+  }
+}
+@media (min-width: 429px) and (max-width: 517px) {
+  .flash-image {
+    width: 80vw;
+    height: 40vh;
+  }
+  .typewritter-container {
+    position: absolute;
+    left: 5rem;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    top: 15rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 429px) {
+  .landing-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .landing-header {
+    text-align: center;
+    font-size: 50px;
+  }
+  .flash-image {
+    width: 80vw;
+    height: 25vh;
+  }
+  .typewritter-container {
+    position: absolute;
+    left: 5rem;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    top: 17rem;
+  }
+}
+@media (max-width: 331px) {
+  .landing-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .landing-header {
+    text-align: center;
+    font-size: 30px;
+  }
+  .flash-image {
+    width: 80vw;
+    height: 25vh;
+  }
+  .typewritter-container {
+    position: absolute;
+    left: 5rem;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    top: 15rem;
+  }
+}
