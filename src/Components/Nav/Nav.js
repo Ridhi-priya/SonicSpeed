@@ -16,7 +16,7 @@ const Nav = () => {
           href='https://github.com/Ridhi-priya'
           rel='noreferrer'
         >
-          <i class='fab fa-github fa-3x'></i>
+          <i className='fab fa-github fa-3x'></i>
         </a>
       </div>
     </div>

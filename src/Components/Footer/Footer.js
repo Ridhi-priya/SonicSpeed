@@ -10,7 +10,7 @@ const Footer = () => {
         target='_blank'
         rel='noreferrer'
       >
-        <i class='fab fa-linkedin fa-3x'></i>
+        <i className='fab fa-linkedin fa-3x'></i>
       </a>
     </div>
   )
